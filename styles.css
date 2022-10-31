@@ -4,6 +4,11 @@ body{
     background-color: aqua;
     background-size: cover;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 div{
@@ -26,19 +31,20 @@ button{
     color:black;
     padding: 4px 8px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: .9rem;
     font-weight: 500;
 
 
 }
 
 #del{
-    font-size: 12px;
+    font: size 0.5em;;
     color: red;
 }
 
 @media only screen and (max-width=600px) {
     div{
-        width:70vw;
+        width:75vw;
+        font-size: 18px;
     }
 }
