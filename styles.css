@@ -44,7 +44,8 @@ button{
 
 @media only screen and (max-width=600px) {
     div{
-        width:75vw;
+        min-height: 90vw;
+        max-width: 450px;
         font-size: 18px;
     }
 }
