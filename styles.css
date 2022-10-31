@@ -1,26 +1,23 @@
 body{
     text-align: center;
     box-sizing: border-box;
-    background-color: aqua;
+    background-color: lightgreen;
     background-size: cover;
     width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    align-content: center;
 }
 
 div{
     background-color: black;
     color: whitesmoke;
-    transform-style: preserve-3d;
-    max-width: 50vw;
-    min-width: 350px;
     padding: 30px;
-    margin:50px auto;
+    margin:0px auto;
     border-radius: 15px;
-    opacity: 1.5;
     
 
 }
@@ -42,10 +39,9 @@ button{
     color: red;
 }
 
-@media only screen and (max-width=600px) {
-    div{
-        min-height: 90vw;
-        max-width: 450px;
-        font-size: 18px;
+
+@media only screen and (max-width: 480px) {
+    body {
+      background-color: wheat;
     }
-}
+  }
