@@ -44,4 +44,7 @@ button{
     body {
       background-color: wheat;
     }
+    div{
+        width: 75vw;
+    }
   }
